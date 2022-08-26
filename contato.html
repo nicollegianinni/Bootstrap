@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--link do bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+    <title>Nicolle Gianinni</title>
+
+    <link rel="stylesheet" href="assets/CS/estilo.css">
+
+
+</head>
+
+<body style="background-image:url(../Bootstrap/assets/img/bg_fundo_blog.png) ;">
+
+
+
+    <nav class="navbar navbar-expand-lg ">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+            <li class="nav-item" role="presentation">
+                <a classe="navbar-expand-lg" href="index.html">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">SOBRE MIM</button>
+                </a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <a classe="navbar-expand-lg" href="stacks.html">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true">STACKS</button>
+
+                </a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <a classe="navbar-expand-lg" href="portfolio.html">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">POTFOLIO</button>
+
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a classe="navbar-expand-lg" href="hobbies.html">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">HOBBIES</button>
+
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a classe="navbar-expand-lg" href="contato.html">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">CONTATO</button>
+
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <h1>Entre em contato</h1>
+
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id='txtNome'></div>
+                <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email" onkeyup='validaEmail()'>
+                <div id='txtEmail'></div>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id='txtAssunto'></div>
+                <br><br>
+                <button onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+
+        <div><br><br>
+            <h4>ENTRE EM CONTATO</h4>
+            <hr>
+            <ul>
+              <li>
+                <b> Para compras :</b>
+                <b> Telefone </b><a href="tel:+ADD O DD E NUMERO" target="_blank">DDD E NUMERO</a><br>
+              </li>
+              <li>
+                <b> Faça seu pedido pelo nosso Whatsapp :</b>
+                <b> Telefone </b><a href="https://Wa.me/55DDD E NUMERO" target="_blank">DDD E NUMERO</a><br>
+              </li>
+              <li>
+                <b>E-mail:</b><a href="https://login.live.com/URL DO EMAIL DE PREFENRENCIA " target="_blank"> E-mail da empresa </a><br>
+              </li>
+        
+              <li>
+                <!--para abrir no site coloca https://instagram/nicollegianinni-->
+                <b>Instagram: </b> <a href="instagram://user?username= NOME DO INSTA DA EMPRESA" target="_blank"> INSTA DA
+                  EMPRESA</a><br>
+              </li>
+            </ul>
+          </div>
+
+        
+        <div class="container ml-50">
+
+            <h4>Outros contatos:</h4><hr>
+            <a href="https://github.com/nicollegianinni" target="_blank" ><img src="assets/img/foto git hub.PNG" height="200" width="300"
+                    alt="foto Github nicolle"></a>
+            <br><br>
+            <a href="https://www.linkedin.com/in/nicolle-gianinni-41895a238/"target="_blank" ><img src="assets/img/foto linkedin.PNG"
+                    height="200" width="300" alt="foto linkedin nicolle"></a>
+            <br><br>
+            <h3>Endereço:</h3>
+
+            <h5>
+                <p>Estrada das Ubaias 400,
+            </h5>
+            </p>
+            <p>casa forte - PE</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.682094717945!2d-34.92174928522047!3d-8.031675994216476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab19a66a06f241%3A0x3baaf4170d4c56ec!2sEstrada%20das%20Ubaias%2C%20400%20-%20Casa%20Forte%2C%20Recife%20-%20PE%2C%2052061-080!5e0!3m2!1spt-BR!2sbr!4v1661223758689!5m2!1spt-BR!2sbr"
+                width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                eferrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!--popper.JS-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <!--JQuery framework de java script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+
+
+    <div class=" card-footer">    
+        <footer class="page-footer font-small blue">
+
+            
+            <div class="footer-copyright text-center py-3">© 2022 Copyright:
+            <a href="https://www.linkedin.com/in/nicollegianinni/"> NGcorporation.com</a>
+            </div>
+            
+        
+        </footer>
+    </div>
+
+    <script src="assets/JS/script.js"></Script>
+</body>
+
+</html>
