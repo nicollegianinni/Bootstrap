@@ -2,7 +2,7 @@ body  {
 
     background-image: url(../img/bg_fundo_blog.png);
     background-repeat: no-repeat ;
-    background-size: cover ;
+    background-size:cover ;
 }
 
 .color {
@@ -16,13 +16,15 @@ body  {
     padding-left: 1px;
     padding-right:1px;
     
-    
-
-    
 }
-/*
 
-.bg{
+.card {
+
+    background-color: rgb(255, 250, 238) !important;
+}
+
+
+.footer{
     background-color: #8d7281;
 }
 ul.social-network{
@@ -49,7 +51,7 @@ ul.social-network li{
 
 .fa-facebook-square:hover{
 
-    color: rgb(149, 40, 116);
+    color: rgb(157, 68, 130);
 }
 
 .fa-github-square:hover{
