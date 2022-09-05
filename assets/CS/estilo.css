@@ -1,51 +1,84 @@
-/*body  { 
+body  { 
 
-    background-image: url(../img/foto\ backgroung.png);
+    background-image: url(../img/bg_fundo_blog.png);
     background-repeat: no-repeat ;
     background-size: cover ;
 }
 
+.color {
+
+    background-color: rgb(253, 229, 162) !important;
+}
 
 
+.row {
 
-h1{ 
-    color:rgb(255, 255, 255);
-    font-family: Arial; 
-    font-size: 40 px;
+    padding-left: 1px;
+    padding-right:1px;
+    
+    
+
+    
+}
+/*
+
+.bg{
+    background-color: #8d7281;
+}
+ul.social-network{
+
+    list-style: none;
+    padding: 0;
+    
+
+}
+
+ul.social-network li{
+
+    display: inline;
     text-align: center;
-}
+    margin: 0px;
+    padding: 30px;
 
-h2{
-    color: rgb(255, 255, 255);
-    font-family: arial ;
-    font-size: 40 px;
-    text-align: center;
 
 }
-
-
-h3{
-    color:rgb(255, 255, 255);
-    font-family: sans-serif;
+.fa{
+    font-size: 30pt;
+    padding: 10px;
 }
 
-h4{
-    color: rgb(255, 255, 255);
-    font-family: Arial;
-    size: 0cm;
+.fa-facebook-square:hover{
+
+    color: rgb(149, 40, 116);
 }
 
-h5{
-    color: aliceblue;
-    font-family: sans-serif;
+.fa-github-square:hover{
+
+    color: rgb(149, 40, 116);
 }
 
-h6{
-    color: rgb(255, 255, 255);
-    font-family: sans-serif;
+.fa-linkedin-square:hover{
+
+    color: rgb(149, 40, 116);
+
 }
-*/
 
+.fa-facebook-square{
 
+    color: white;
+}
 
+.fa-github-square{
 
+    color: white;
+}
+
+.fa-linkedin-square{
+
+    color:white;
+}
+
+.footer-copyright {
+
+    background-color: #3e2854;
+}
